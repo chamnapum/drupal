@@ -55,7 +55,7 @@ class __TwigTemplate_29c5a1d708fb8cae6e53cf1dd0f835777df361491dd1d6896d24690c285
         echo "  ";
         if (($context["site_logo"] ?? null)) {
             // line 18
-            echo "    <a href=\"";
+            echo "    <a class=\"navbar-brand\" href=\"";
             echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->renderVar($this->env->getExtension('Drupal\Core\Template\TwigExtension')->getPath("<front>")));
             echo "\" title=\"";
             echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->renderVar(t("Home")));

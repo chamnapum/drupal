@@ -10,6 +10,7 @@ stylesheets-remove:
   - core/themes/stable/css/system/components/align.module.css
 regions:
   header: header
+  main_navigation: Main navigation
   content: content
   sidebar: sidebar
   footer: Footer
