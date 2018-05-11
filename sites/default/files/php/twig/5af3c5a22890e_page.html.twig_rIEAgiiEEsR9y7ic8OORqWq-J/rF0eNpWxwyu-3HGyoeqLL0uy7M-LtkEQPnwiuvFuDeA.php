@@ -15,7 +15,7 @@ class __TwigTemplate_77bc0c8f50f9ed86bf9d874ad4d7fdb786529bb06f9783d73efc5ad2ccb
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $tags = array("include" => 4, "if" => 13);
+        $tags = array("include" => 2, "if" => 15);
         $filters = array();
         $functions = array();
 
@@ -41,48 +41,52 @@ class __TwigTemplate_77bc0c8f50f9ed86bf9d874ad4d7fdb786529bb06f9783d73efc5ad2ccb
 
         // line 1
         echo "
-<div class=\"container-fluid\">
-
 ";
-        // line 4
-        $this->loadTemplate((($context["directory"] ?? null) . "/partials/header.html.twig"), "themes/custom/searchengine/page.html.twig", 4)->display($context);
-        // line 5
+        // line 2
+        $this->loadTemplate((($context["directory"] ?? null) . "/partials/header.html.twig"), "themes/custom/searchengine/page.html.twig", 2)->display($context);
+        // line 3
         echo "
+<div class=\"container\">
+
+
+
   <main role=\"main\">
     <a id=\"main-content\" tabindex=\"-1\"></a>";
-        // line 8
+        // line 10
         echo "
     <div class=\"layout-content\">
       ";
-        // line 10
+        // line 12
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["page"] ?? null), "content", array()), "html", null, true));
         echo "
     </div>";
-        // line 12
+        // line 14
         echo "
     ";
-        // line 13
+        // line 15
         if ($this->getAttribute(($context["page"] ?? null), "sidebar", array())) {
-            // line 14
+            // line 16
             echo "      <aside class=\"layout-sidebar\" role=\"complementary\">
         ";
-            // line 15
+            // line 17
             echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["page"] ?? null), "sidebar", array()), "html", null, true));
             echo "
       </aside>
     ";
         }
-        // line 18
+        // line 20
         echo "
 
   </main>
 
-";
-        // line 22
-        $this->loadTemplate((($context["directory"] ?? null) . "/partials/footer.html.twig"), "themes/custom/searchengine/page.html.twig", 22)->display($context);
-        // line 23
-        echo "
+
 </div>";
+        // line 26
+        echo "
+
+";
+        // line 28
+        $this->loadTemplate((($context["directory"] ?? null) . "/partials/footer.html.twig"), "themes/custom/searchengine/page.html.twig", 28)->display($context);
     }
 
     public function getTemplateName()
@@ -97,7 +101,7 @@ class __TwigTemplate_77bc0c8f50f9ed86bf9d874ad4d7fdb786529bb06f9783d73efc5ad2ccb
 
     public function getDebugInfo()
     {
-        return array (  84 => 23,  82 => 22,  76 => 18,  70 => 15,  67 => 14,  65 => 13,  62 => 12,  58 => 10,  54 => 8,  50 => 5,  48 => 4,  43 => 1,);
+        return array (  89 => 28,  85 => 26,  78 => 20,  72 => 17,  69 => 16,  67 => 15,  64 => 14,  60 => 12,  56 => 10,  48 => 3,  46 => 2,  43 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */

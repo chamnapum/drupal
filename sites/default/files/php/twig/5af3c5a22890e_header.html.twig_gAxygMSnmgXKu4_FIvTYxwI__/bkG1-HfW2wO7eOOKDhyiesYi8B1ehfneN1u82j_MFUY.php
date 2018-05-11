@@ -46,7 +46,7 @@ class __TwigTemplate_4f4fca84475cc4e1c6a9ca2cb4d28e6ad24aa474e20d809a503c74382c4
 
 
   <!-- Navigation -->
-      <nav class=\"navbar navbar-expand-lg navbar-dark bg-dark fixed-top\">
+      <nav class=\"navbar navbar-expand-lg navbar-dark bg-light fixed-top\">
         <div class=\"container\">
           ";
         // line 9

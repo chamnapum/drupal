@@ -1,6 +1,18 @@
 #navbarResponsive{
   div{
     margin-left: auto !important;
+    nav ul li{
+      a{
+        color:rgba( 0, 0, 0, 0.6 );
+        font-weight: bold;
+        &:hover{
+          color:rgba( 0, 0, 0, 0.3 );
+        }
+      }
+      a.is-active{
+        color:#2EA3F2;
+      }
+    }
   }
 }
 
