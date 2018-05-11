@@ -16,7 +16,7 @@ class __TwigTemplate_8f876c24b5b2081da1c54223ab55fe79dbdaed7e6df8ae9700e7b1c1dde
     protected function doDisplay(array $context, array $blocks = array())
     {
         $tags = array();
-        $filters = array("raw" => 29, "safe_join" => 30, "t" => 44);
+        $filters = array("raw" => 29, "safe_join" => 30, "t" => 43);
         $functions = array();
 
         try {
@@ -64,37 +64,38 @@ class __TwigTemplate_8f876c24b5b2081da1c54223ab55fe79dbdaed7e6df8ae9700e7b1c1dde
         // line 34
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->renderVar(($context["placeholder_token"] ?? null)));
         echo "\">
-      <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js\" integrity=\"sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T\" crossorigin=\"anonymous\"></script>
-      <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js\" integrity=\"sha384-u/bQvRA/1bobcXlcEYpsEdFVK/vJs3+T+nXLsBYJthmdBuavHvAW6UsmqO2Gd/F9\" crossorigin=\"anonymous\"></script>
+
   </head>
   <body";
-        // line 38
+        // line 37
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, ($context["attributes"] ?? null), "html", null, true));
         echo ">
     ";
-        // line 43
+        // line 42
         echo "    <a href=\"#main-content\" class=\"visually-hidden focusable\">
       ";
-        // line 44
+        // line 43
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->renderVar(t("Skip to main content")));
         echo "
     </a>
     ";
-        // line 46
+        // line 45
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, ($context["page_top"] ?? null), "html", null, true));
         echo "
     ";
-        // line 47
+        // line 46
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, ($context["page"] ?? null), "html", null, true));
         echo "
     ";
-        // line 48
+        // line 47
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, ($context["page_bottom"] ?? null), "html", null, true));
         echo "
     <js-bottom-placeholder token=\"";
-        // line 49
+        // line 48
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->renderVar(($context["placeholder_token"] ?? null)));
         echo "\">
+      <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js\" integrity=\"sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T\" crossorigin=\"anonymous\"></script>
+      <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js\" integrity=\"sha384-u/bQvRA/1bobcXlcEYpsEdFVK/vJs3+T+nXLsBYJthmdBuavHvAW6UsmqO2Gd/F9\" crossorigin=\"anonymous\"></script>
   </body>
 </html>
 ";
@@ -112,7 +113,7 @@ class __TwigTemplate_8f876c24b5b2081da1c54223ab55fe79dbdaed7e6df8ae9700e7b1c1dde
 
     public function getDebugInfo()
     {
-        return array (  96 => 49,  92 => 48,  88 => 47,  84 => 46,  79 => 44,  76 => 43,  72 => 38,  65 => 34,  60 => 32,  55 => 30,  51 => 29,  46 => 27,  43 => 26,);
+        return array (  95 => 48,  91 => 47,  87 => 46,  83 => 45,  78 => 43,  75 => 42,  71 => 37,  65 => 34,  60 => 32,  55 => 30,  51 => 29,  46 => 27,  43 => 26,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
